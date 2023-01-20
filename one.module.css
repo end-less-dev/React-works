@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: cornflowerblue;
+    font-family: cursive;
+}
+.navbar>ul>li{
+    display: inline-block;
+    list-style: none;
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: black;
+}
